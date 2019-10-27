@@ -34,10 +34,10 @@ public class App {
         observer.notify(TIMES);
         System.out.println("ooooooooooooooooooooooooooooooooooo");
 
-        observer.notify(COSMO,PLAYBOY);
+        observer.notify(COSMO, PLAYBOY);
         System.out.println("ooooooooooooooooooooooooooooooooooo");
 
-        observer.unsubscribe(subscriber6,TIMES);
+        observer.unsubscribe(subscriber6, TIMES);
 
         observer.notify(TIMES);
 

@@ -35,7 +35,7 @@ public class Observer {
     public void notify(Periodicals... types) {
         for (Periodicals type : types) {
             if (listeners.containsKey(type)) {
-                for (SubscriberImpl subscriber:listeners.get(type)){
+                for (SubscriberImpl subscriber : listeners.get(type)) {
                     subscriber.update(type.getName());
                 }
             }
