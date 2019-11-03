@@ -2,7 +2,7 @@ package chainofresponsibility.operations;
 
 import chainofresponsibility.payments.Payment;
 
-public class SecurityOperation extends PaymentChecker{
+public class SecurityOperation extends PaymentChecker {
 
     @Override
     public boolean payment(Payment payment) {

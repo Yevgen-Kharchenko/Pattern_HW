@@ -2,7 +2,7 @@ package chainofresponsibility.payments;
 
 import chainofresponsibility.operations.PaymentInterface;
 
-public abstract class Payment implements PaymentBuilder{
+public abstract class Payment implements PaymentBuilder {
     private Double amount;
     private String debet = "260012345";
     private String kredit = "260001346";
@@ -36,6 +36,6 @@ public abstract class Payment implements PaymentBuilder{
     }
 
     @Override
-    abstract public PaymentInterface build() ;
+    abstract public PaymentInterface build();
 
 }
